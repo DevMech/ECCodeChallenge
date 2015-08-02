@@ -14,6 +14,8 @@
 		7DCEE7A91B6D5F02007A8FC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCEE7A81B6D5F02007A8FC9 /* Images.xcassets */; };
 		7DCEE7AC1B6D5F02007A8FC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DCEE7AA1B6D5F02007A8FC9 /* LaunchScreen.xib */; };
 		7DCEE7B81B6D5F02007A8FC9 /* ECCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEE7B71B6D5F02007A8FC9 /* ECCodeChallengeTests.m */; };
+		7DCEE7C31B6DB588007A8FC9 /* TimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEE7C21B6DB588007A8FC9 /* TimesViewController.m */; };
+		7DCEE7C91B6DB659007A8FC9 /* TimesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEE7C81B6DB659007A8FC9 /* TimesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		7DCEE7B11B6D5F02007A8FC9 /* ECCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCEE7B61B6D5F02007A8FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DCEE7B71B6D5F02007A8FC9 /* ECCodeChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECCodeChallengeTests.m; sourceTree = "<group>"; };
+		7DCEE7C11B6DB588007A8FC9 /* TimesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesViewController.h; sourceTree = "<group>"; };
+		7DCEE7C21B6DB588007A8FC9 /* TimesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimesViewController.m; sourceTree = "<group>"; };
+		7DCEE7C71B6DB659007A8FC9 /* TimesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesController.h; sourceTree = "<group>"; };
+		7DCEE7C81B6DB659007A8FC9 /* TimesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 				7DCEE7A21B6D5F02007A8FC9 /* ViewController.h */,
 				7DCEE7A31B6D5F02007A8FC9 /* ViewController.m */,
 				7DCEE7A51B6D5F02007A8FC9 /* Main.storyboard */,
+				7DCEE7C41B6DB59E007A8FC9 /* TimesView */,
+				7DCEE7C61B6DB5F8007A8FC9 /* TimesController */,
 				7DCEE7A81B6D5F02007A8FC9 /* Images.xcassets */,
 				7DCEE7AA1B6D5F02007A8FC9 /* LaunchScreen.xib */,
 				7DCEE79B1B6D5F02007A8FC9 /* Supporting Files */,
@@ -117,6 +125,24 @@
 				7DCEE7B61B6D5F02007A8FC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DCEE7C41B6DB59E007A8FC9 /* TimesView */ = {
+			isa = PBXGroup;
+			children = (
+				7DCEE7C11B6DB588007A8FC9 /* TimesViewController.h */,
+				7DCEE7C21B6DB588007A8FC9 /* TimesViewController.m */,
+			);
+			name = TimesView;
+			sourceTree = "<group>";
+		};
+		7DCEE7C61B6DB5F8007A8FC9 /* TimesController */ = {
+			isa = PBXGroup;
+			children = (
+				7DCEE7C71B6DB659007A8FC9 /* TimesController.h */,
+				7DCEE7C81B6DB659007A8FC9 /* TimesController.m */,
+			);
+			name = TimesController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DCEE7A41B6D5F02007A8FC9 /* ViewController.m in Sources */,
+				7DCEE7C91B6DB659007A8FC9 /* TimesController.m in Sources */,
+				7DCEE7C31B6DB588007A8FC9 /* TimesViewController.m in Sources */,
 				7DCEE7A11B6D5F02007A8FC9 /* AppDelegate.m in Sources */,
 				7DCEE79E1B6D5F02007A8FC9 /* main.m in Sources */,
 			);
@@ -418,6 +446,7 @@
 				7DCEE7BD1B6D5F02007A8FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DCEE7BE1B6D5F02007A8FC9 /* Build configuration list for PBXNativeTarget "ECCodeChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +455,7 @@
 				7DCEE7C01B6D5F02007A8FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
